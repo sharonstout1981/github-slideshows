@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: " npm, commenmarker" # See documentation for possible values
-    directory: "/ package.json, RubyGems, " # Location of package manifests
+  - package-ecosystem: " npm, commonmarker-RubyGems" # See documentation for possible values
+    directory: "/ package.json " # Location of package manifests
     schedule:
       interval: "weekly"
