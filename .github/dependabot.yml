@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "package-lock.json, gemfile.lock" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "" # See documentation for possible values
+    directory: "/package-lock.json, gemfile.lock" # Location of package manifests
     schedule:
       interval: "weekly"
