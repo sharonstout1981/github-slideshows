@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: " npm, commonmarker-RubyGems" # See documentation for possible values
+  - package-ecosystem: " reveal.js-npm, commonmarker-RubyGems" # See documentation for possible values
     directory: "/ package.json, Gemfile.lock " # Location of package manifests
     schedule:
       interval: "weekly"
