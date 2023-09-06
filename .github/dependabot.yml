@@ -9,3 +9,4 @@ updates:
     directory: "/package.json, Gemfile.lock " # Location of package manifests
     schedule:
       interval: "daily" 
+Open-pull-request-limit-1
