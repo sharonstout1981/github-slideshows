@@ -9,4 +9,4 @@ updates:
     directory: "/root, /package.json, /Gemfile.lock, /package-lock.json" # Location of package manifests
     schedule:
       interval: "daily" 
-Open-pull-request-limit:5
+      open-pull-requests-limit: 5
