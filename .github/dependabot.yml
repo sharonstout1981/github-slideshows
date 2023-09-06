@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: " reveal.js-npm, commonmarker-RubyGems" # See documentation for possible values
-    directory: "/package.json, Gemfile.lock, package-lock.json" # Location of package manifests
+    directory: "/package.json, /Gemfile.lock, /package-lock.json" # Location of package manifests
     schedule:
       interval: "daily" 
 Open-pull-request-limit-1
