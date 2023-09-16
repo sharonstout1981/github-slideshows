@@ -11,7 +11,7 @@ updates:
       interval: "daily"
 
       
-version: 2
+ version: 2
 updates:
   - package-ecosystem: " reveal.js(npm)" 
     directory: "/package.json, /package-lock.json"
