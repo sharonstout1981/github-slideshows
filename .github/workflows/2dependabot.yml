@@ -10,6 +10,7 @@ updates:
     schedule:
       interval: "daily"
 
+      
 version: 2
 updates:
   - package-ecosystem: " reveal.js(npm)" 
