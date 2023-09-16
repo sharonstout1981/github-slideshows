@@ -8,7 +8,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "commenmarker(RubyGems), activesupport(RubyGems) " # See documentation for possible values
+  - package-ecosystem: "commonmarker(RubyGems), activesupport(RubyGems) " # See documentation for possible values
     directory: "/Gemfile.lock" # Location of package manifests
     schedule:
       interval: "daily"
