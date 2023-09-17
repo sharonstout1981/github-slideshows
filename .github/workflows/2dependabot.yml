@@ -4,8 +4,6 @@
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 
-
-
 version: 2
 updates:
   - package-ecosystem: "commonmarker(RubyGems), activesupport(RubyGems) " # See documentation for possible values
