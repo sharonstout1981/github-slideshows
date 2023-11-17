@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "(RubyGems) , (npm) " # See documentation for possible values
-    directory: "/Gemfile.lock, package lock.json" # Location of package manifests
+  - package-ecosystem: "commenmarker(RubyGems) ,reveal.js(npm) " # See documentation for possible values
+    directory: "/Gemfile.lock, /package lock.json, /package.lock" # Location of package manifests
     schedule:
       interval: "weekly"
