@@ -7,7 +7,7 @@
 version: 2
 updates:
   - package-ecosystem: "commonmarker(RubyGems), activesupport(RubyGems) " # See documentation for possible values
-    directory: "/Gemfile.lock" # Location of package manifests
+    directory: "*/root, /Gemfile.lock" # Location of package manifests
     schedule:
       interval: "daily"
 
@@ -15,6 +15,6 @@ updates:
  version: 2
  updates:
  - package-ecosystem: " reveal.js(npm)" 
-    directory: "/package.json, /package-lock.json"
+    directory: "*/root, /package.json, /package-lock.json"
     schedule:
       interval: "daily" 
