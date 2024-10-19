@@ -12,7 +12,7 @@ updates:
 
 version: 2
 updates:
-  - package-ecosysten: "reveal.js(npm)
-    directory:  "/package.json", "/package-lock.json"
+  - package-ecosysten: "reveal.js(npm)"
+    directory:  "/package.json, /package-lock.json"
     schedule:
       interval: "weekly" 
