@@ -12,7 +12,7 @@ updates:
 
 version: 2
 updates:
-  - package-ecosystem: "reveal.js-npm, npm"
+  - package-ecosystem: "reveal.js-npm, npm, javascript"
     directory: "/package.json, /package-lock.json, /npm_and_yarn/helpers"
     schedule:
       interval: "weekly"
